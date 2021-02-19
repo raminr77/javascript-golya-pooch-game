@@ -1,0 +1,47 @@
+.game {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+    margin: 16px auto 0;
+    align-items: center;
+    justify-content: center;
+
+    label {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    input[type="radio"]:checked+div {
+        background-color: #42A5F5;
+        transform: scale(0.9);
+    }
+
+
+    &__box {
+        margin: 10px;
+        width: 120px;
+        height: 130px;
+        display: flex;
+        color: #fff;
+        font-size: 50px;
+        cursor: pointer;
+        align-items: center;
+        border-radius: 10px;
+        justify-content: center;
+        transition-duration: 0.3s;
+        background-color: #0D47A1;
+        font-family: 'Chilanka', cursive;
+
+        &:hover {
+            background-color: #1976D2;
+            transform: scale(0.9);
+        }
+    }
+}

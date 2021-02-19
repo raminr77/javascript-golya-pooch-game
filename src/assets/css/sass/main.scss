@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    user-select: none;
+}
+
+body {
+    background-color: #21252b;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.title-font {
+    font-family: 'Chilanka', cursive;
+}
+
+.text-font {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.Toastify__toast--error {
+    background-color: #da0000 !important;
+}
+
+.Toastify__progress-bar {
+    background-color: #fff !important;
+}
+
+.Toastify__close-button {
+    display: none;
+}
+
+.u-disabled {
+    opacity: 0.5;
+    cursor: none;
+    pointer-events: none;
+    background-color: #333 !important;
+}
+
+@import './components/Welcome.scss';
+@import './components/Header.scss';
+@import './components/Footer.scss';
+@import './components/Game.scss';
+
+@import './media.scss';

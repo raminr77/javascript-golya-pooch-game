@@ -1,0 +1,45 @@
+footer {
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    display: flex;
+    margin: 16px auto;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        border: none;
+        margin: 10px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        min-width: 130px;
+        line-height: 40px;
+        border-radius: 4px;
+        transition-duration: 0.3s;
+
+        &.select {
+            background-color: #43A047;
+
+            &:hover {
+                background-color: #4CAF50;
+            }
+        }
+
+        &.cancel {
+            background-color: #3949AB;
+
+            &:hover {
+                background-color: #3F51B5;
+            }
+        }
+
+        &.risk {
+            background-color: #AD1457;
+
+            &:hover {
+                background-color: #C2185B;
+            }
+        }
+    }
+}
